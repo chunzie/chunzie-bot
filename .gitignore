@@ -1,0 +1,6 @@
+.idea/
+config/
+venv/
+.dockerignore
+Dockerfile
+ngrok
