@@ -9,7 +9,7 @@ This bot can be used in a private chat (with just the bot) or in a group. It can
 `/cancel` - To be used after an initial `/scan` command to stop the conversation.
 
 ## Installation
-The intended use case for this project is to be used in a [docker container](https://hub.docker.com/repository/docker/chunzie/chunzie-bot). It requires several environment variables as well as a `/config/whitelist` file to exist. The `whitelist` file is a text file with no extension that includes at least one Telegram chat id that can use the bot.
+The intended use case for this project is to be used in a [docker container](https://hub.docker.com/repository/docker/chunzie/chunzie-bot) which can be created using the `docker build` command. It requires several environment variables as well as a `/config/whitelist` file to exist. The `whitelist` file is a text file with no extension that includes at least one Telegram chat id that can use the bot.
 
 ### Environment variables
 **BOT_TOKEN** - Your Telegram bot API token.
